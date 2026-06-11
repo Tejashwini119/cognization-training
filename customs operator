@@ -1,0 +1,119 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "39f0033d-47be-4aed-a7ae-54ba3ff32a39",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n",
+      "kavitayadav\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(10+20)\n",
+    "print(\"kavita\" + \"yadav\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "047c4c6c-0a43-400a-8a83-47b2db1ab9c8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "155\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "class student:\n",
+    " def  __init__(self,marks):\n",
+    "      self.marks=marks\n",
+    " def __add__(self,other):\n",
+    "        return self.marks+other.marks\n",
+    "s1=student(80)\n",
+    "s2=student(75)\n",
+    "print(s1+s2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0c028ecd-7a70-444a-bc0b-bba911ddbb71",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "34d43ab8-bdad-4259-9ff1-6d41adf0ad95",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "34216969-20fe-435c-812b-7977cc63d16a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b7c0aec6-9eff-4606-841f-2a10bfa91dca",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fe4ecb9d-9048-489e-b4ba-2b04f7915913",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6be54dad-5980-45aa-bbad-4ad5498a5755",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:anaconda3]",
+   "language": "python",
+   "name": "conda-env-anaconda3-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

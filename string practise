@@ -1,0 +1,190 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "3456f86e-9d1d-4bbd-9e70-578b0939e904",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tejashwini\n",
+      "tejashwinipolam105@gmil.com\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"Tejashwini\"\n",
+    "print(name)\n",
+    "email=\"tejashwinipolam105@gmil.com\"\n",
+    "print(email)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f3424645-822c-44ed-b000-26786d4705f4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "karimnagar\n"
+     ]
+    }
+   ],
+   "source": [
+    "city=\"karimnagar\"\n",
+    "print(city)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "5cc42d5e-0598-4d1d-919b-decfbb08ca97",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ejas\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"tejashwini\"\n",
+    "print(name[1:5])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "d73f4863-ba8f-41e6-b7ba-0805edf4e6d6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "name=\"Tejashwini\"\n",
+    "print(len(name))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "7627a5ce-a280-415d-b367-54f2fce270cd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tejashwinipolam\n"
+     ]
+    }
+   ],
+   "source": [
+    "first=\"tejashwini\"\n",
+    "second=\"polam\"\n",
+    "print(first+\"\"+second)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "6e942090-d330-4f95-a2da-f668d9a0ad37",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tejashwini polam\n"
+     ]
+    }
+   ],
+   "source": [
+    "first=\"Tejashwini\"\n",
+    "second=\"polam\"\n",
+    "print(first+ \" \" +second)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "6e2a68bc-8288-4bdc-87a7-4942efecf054",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hellohellohello\n"
+     ]
+    }
+   ],
+   "source": [
+    "s=\"hello\"\n",
+    "print(\"hello\"* 3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "1b6371e5-4cc2-4db3-bfd7-78623c80771e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tejashwinitejashwinitejashwini\n"
+     ]
+    }
+   ],
+   "source": [
+    "s=\"tejashwini\"\n",
+    "print(\"tejashwini\" * 3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "eccc6ee4-611c-49de-9548-8307585c2eaa",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:anaconda3]",
+   "language": "python",
+   "name": "conda-env-anaconda3-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

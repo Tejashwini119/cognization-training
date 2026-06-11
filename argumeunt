@@ -1,0 +1,151 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "c64b05e3-df39-444b-8923-5442e268181e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello Kavita\n"
+     ]
+    }
+   ],
+   "source": [
+    "name =\"Kavita\"\n",
+    "def greet( ):\n",
+    "    print(\"hello\" , name)\n",
+    "greet( )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "1b3d213c-dcbe-4b82-a9b4-5fa65c04d12b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    " def add (a,b):\n",
+    "     return a+b\n",
+    " print(add (10,20))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "909ae7f3-af9c-4fc7-bced-4d5ccb867efb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n",
+      "60\n"
+     ]
+    }
+   ],
+   "source": [
+    "def add(a,b,c=0):\n",
+    "    return a+b+c\n",
+    "print(add(10,20))\n",
+    "print(add(10,20,30))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "f2710d02-3ca8-4caf-80a1-26d2cd0093bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "6000\n"
+     ]
+    }
+   ],
+   "source": [
+    "def multi(a,b,c=0):\n",
+    "    return a*b*c\n",
+    "print(multi(10,20))\n",
+    "print(multi(10,20,30))\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "cba758fd-8ee9-4af5-b8ec-ba3075f8b2cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n",
+      "60\n",
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "def add(*numbers):\n",
+    "   print(sum(numbers))\n",
+    "add (10,20)\n",
+    "add (10,20,30)\n",
+    "add (10,20,30,40)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "71bb4a77-b037-44ce-8961-8b9eccc5e99d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8a15eba5-4857-4a91-9993-b16c99ea1cc2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:anaconda3]",
+   "language": "python",
+   "name": "conda-env-anaconda3-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
