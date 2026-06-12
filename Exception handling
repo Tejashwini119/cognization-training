@@ -1,0 +1,249 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "db5a7af3-484d-4d84-b958-42de4f866710",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'list'>\n",
+      "<class 'list'>\n",
+      "<class 'list'>\n",
+      "<class 'list'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "list[1,2,3,4]\n",
+    "print(list)\n",
+    "print(list)\n",
+    "print(list)\n",
+    "print(list)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "2e66dcb1-33e6-4467-9d98-3887faaafdd5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'list'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "list[1]\n",
+    "print(list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "ea9f298e-a6fb-41c1-9dfc-73b4e27b2c8a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'list'>\n",
+      "<class 'list'>\n",
+      "<class 'list'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "list[1,2,3]\n",
+    "print(list)\n",
+    "print(list)\n",
+    "print(list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "d578b543-593b-4d4c-ac7b-648a72722c3c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a Positive integer, 9886\n"
+     ]
+    },
+    {
+     "ename": "NameError",
+     "evalue": "name 'o' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[81]\u001b[39m\u001b[32m, line 3\u001b[39m\n\u001b[32m      1\u001b[39m \u001b[38;5;28;01mtry\u001b[39;00m:\n\u001b[32m      2\u001b[39m     a = \u001b[38;5;28mint\u001b[39m(\u001b[38;5;28minput\u001b[39m(\u001b[33m\"\u001b[39m\u001b[33mEnter a Positive integer,\u001b[39m\u001b[33m\"\u001b[39m))\n\u001b[32m----> \u001b[39m\u001b[32m3\u001b[39m     \u001b[38;5;28;01mif\u001b[39;00m a<=\u001b[43mo\u001b[49m: \n\u001b[32m      4\u001b[39m      \u001b[38;5;28;01mraise\u001b[39;00m \u001b[38;5;167;01mValueError\u001b[39;00m(\u001b[33m\"\u001b[39m\u001b[33mThat is not a Positive number\u001b[39m\u001b[33m\"\u001b[39m)\n\u001b[32m      5\u001b[39m \u001b[38;5;28;01mexcept\u001b[39;00m \u001b[38;5;167;01mValueError\u001b[39;00m \u001b[38;5;28;01mas\u001b[39;00m ve:\n",
+      "\u001b[31mNameError\u001b[39m: name 'o' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "try:\n",
+    "    a = init(input(\"Enter a Positive integer,\"))\n",
+    "    ifa<=o: \n",
+    "    raise ValueError(\"That is not a Positive number\")\n",
+    " except ValueError as ve:\n",
+    "   print(ve)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "8fa51191-4270-44da-b7d7-5b9794ed3913",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5.0\n",
+      "last line of the program\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=10\n",
+    "print(num/2)\n",
+    "print(\"last line of the program\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "ccf86ea3-d8f5-458c-815e-1d64b58b5fc7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "cannot divide by zero\n"
+     ]
+    }
+   ],
+   "source": [
+    "try:\n",
+    "    num=10\n",
+    "    print(num/0)\n",
+    "except ZeroDivisionError:\n",
+    "    print(\"cannot divide by zero\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "273a2264-2632-4e6c-8f34-0c6a7b51fc51",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "File Doesn't exist\n"
+     ]
+    }
+   ],
+   "source": [
+    "try:\n",
+    "    File = open(\"xyz.txt\" , \"r\")\n",
+    "except FileNotFoundError:\n",
+    "    print(\"File Doesn't exist\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "7995cc0b-8108-4cb0-9c5b-519a7e2b190c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the age 19\n"
+     ]
+    }
+   ],
+   "source": [
+    "try:\n",
+    "    s=int(input(\"enter the age\"))\n",
+    "except valuerror:\n",
+    "    print(\"age\")\n",
+    "          "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "a56892a0-0f44-428c-a51c-36c0eca6cfa8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the age 44\n"
+     ]
+    }
+   ],
+   "source": [
+    "try:\n",
+    "  s=int(input(\"enter the age\"))\n",
+    "except valuerror:\n",
+    "  print(\"age\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "377d3574-b9e5-4c19-bc3e-c86e47c6934f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c2c29b49-3d5e-4cc6-8623-1f9c8cf8f9a4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:anaconda3]",
+   "language": "python",
+   "name": "conda-env-anaconda3-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
