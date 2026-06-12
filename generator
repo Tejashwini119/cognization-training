@@ -1,0 +1,122 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "a6bd5def-4a44-4116-bdae-c490822880db",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Red', 'Blue', 'Green', 'Yello', 'Black']\n"
+     ]
+    }
+   ],
+   "source": [
+    "colors=[\"Red\",\"Blue\",\"Green\",\"Yello\",\"Black\"]\n",
+    "print(colors)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "f20c6e33-2ac9-4bba-ba95-a0939746fb2a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "teja\n",
+      "abhi\n",
+      "sai\n"
+     ]
+    }
+   ],
+   "source": [
+    "name =[\"teja\", \"abhi\",\"sai\"]\n",
+    "it=iter(name)\n",
+    "print(next(it))\n",
+    "print(next(it))\n",
+    "print(next(it))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "91f4c7d9-7d0b-4230-84dd-3a8aeb1a70c2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['1', '2']\n"
+     ]
+    }
+   ],
+   "source": [
+    "number=[\"1\",\"2\"]\n",
+    "print(number)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "e9044c2d-8797-4e27-b64d-64a615ef2921",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "def numbers():\n",
+    "    yield 1\n",
+    "    yield 2\n",
+    "    yield 3\n",
+    "gen =numbers()\n",
+    "print(next(gen))\n",
+    "print(next(gen))\n",
+    "print(next(gen))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b521801a-7b44-41f7-9214-29e9ce2184eb",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:anaconda3]",
+   "language": "python",
+   "name": "conda-env-anaconda3-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
